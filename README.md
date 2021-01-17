@@ -3,7 +3,6 @@
   
   ![Component 16](https://user-images.githubusercontent.com/40190772/104846822-22d3e800-58e5-11eb-9c6c-b7de610bd483.png)
 
-
 </div>
 
 <h3 align="center">Orchestra</h3>
@@ -23,6 +22,7 @@
 </div>
 
 ## About
+
 > **Orchestra** is a sheet music reader (optical music recognition (**OMR**) system) that converts sheet music to a machine-readable version.
 
 <div align="center">
@@ -32,8 +32,8 @@
 </div>
 
 ## How it works
-> List of steps we take to process the input sheet and get our results
 
+> List of steps we take to process the input sheet and get our results
 
 ### 1. Noise Removal
 
@@ -43,7 +43,6 @@
 
 </div>
 
-
 ### 2. Binarization
 
 <div align="center">
@@ -51,7 +50,6 @@
 ![2  binarized](https://user-images.githubusercontent.com/40190772/104847174-3aac6b80-58e7-11eb-8c85-eb9747a7c786.png)
 
 </div>
-
 
 ### 3. Staff line removal
 
@@ -93,22 +91,31 @@
 
 ![colored_0_3](https://user-images.githubusercontent.com/40190772/104849090-99c2ae00-58f0-11eb-9876-4eea7f322e83.png)
 
-  
 </div>
 
 ### 6. Recognition
 
 1. Cutted 1
+
 > [ \meter<"4/4"> d1/4 e1/32 e2/2 e1/8 e1/16 e1/32 {e1/4,g1/4} e1/4 e1/8 c1/8 g1/32 c1/16 e1/32 ]
 
 2. Cutted 2
+
 > [ \meter<"4/4"> {e1/4,g1/4,b1/4} a1/8 d1/8 c1/16 g1/16 d1/16 e1/16 c2/16 g2/16 d2/16 e2/16 {f1/4,g1/4,b1/4} c1/4 a1/4. a1/8 a1/32.. ]
 
 3. Cutted 3
+
 > [ \meter<"4/4"> e1/16 e1/16 e1/16 e1/16 e1/4 e#1/4 g1/4 g&&1/4 g1/4 e#2/4 ]
 
+## How to run
+
+1. Put your images inside *input* folder
+2. Run the main file and pass the input & output folders as args
+   > for example `python main.py input output`
+3. Check the output folder
 
 ### Contributors
+
 <table>
   <tr>
     <td align="center"><a href="https://github.com/AbdallahHemdan"><img src="https://avatars1.githubusercontent.com/u/40190772?s=460&v=4" width="150px;" alt=""/><br /><sub><b>Abdallah Hemdan</b></sub></a><br /></td>
@@ -119,4 +126,5 @@
  </table>
 
 ### Licence
+
 [MIT Licence](https://github.com/AbdallahHemdan/Sqrt_OS/blob/main/LICENSE)
